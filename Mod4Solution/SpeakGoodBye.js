@@ -19,7 +19,7 @@
 // byeSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
 	byeSpeaker.speak = function (name) {
-	  console.log(speakWord + " " + window.name);
+	  console.log(speakWord + " " + name);
 	}
 	window.byeSpeaker = byeSpeaker;
 
